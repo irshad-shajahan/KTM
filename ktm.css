@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.topbar{
+    width: 100%;
+    height: 710px;
+    background-image: url(./KTM\ IMAGES/backgrnd.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding-left: 15px;
+padding-right: 40px;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 19px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: orangered;
+}
+#logo-resize{
+    width: 165px;
+    height: 145px;
+}
+#webicon{
+    padding-top: 60px;
+    width: 72px;
+    height: 83px;
+    padding-right: 50px;
+}
+#locationicon{
+    height: 80px;
+    padding-top: 60px;
+    width: 52px;
+    padding-right:30px;
+}
+.maintext{
+    padding-top: 130px;
+    width: 100%;
+    height: 215px;
+
+
+}
+#subhead{
+    text-align: center;
+    color: white;
+    text-decoration: solid;
+}
+#mainhead{
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    font-weight: 750
+}
+.mainbutton{
+    padding-top: 55px;
+    align-items: center;
+
+}
+#book{
+border: 0;
+color: white;
+background-color: #ff6600;
+height: 80px;
+width: 195px;
+font-size: larger;
+}
+#info{
+margin-left: 50px;
+float: inline-end;
+border: 0;
+color: white;
+background-color: #ff6600;
+height: 80px;
+width: 260px;
+font-size: larger;
+}
+.tab{
+    margin-top: 80px;
+    width: 1450px;
+    margin-left: 40px;
+
+}
+.row1{
+    width: 470px;
+    height: 510px;
+
+}
+.image1{
+    width: 467px;
+    height: 352x;
+}
+.subtext1{
+    padding-top: 24px;
+font-weight: 550;
+text-align: center;
+}
+.imgtxt{
+    padding-top: 10px;
+    font-weight: 800;
+text-align: center;
+font-size: 25px;
+}
+.row2{
+    width: 470px;
+    height: 780px;
+
+}
+.image2{
+    width: 444px;
+    height: 442px;
+}
+.subtext2{
+    padding-top: 24px;
+    font-weight: 550;
+    text-align: left;
+    font-size: 15px;
+}
+.imgtxt2{
+    padding-top: 25px;
+    font-weight: 800;
+font-size: 25px;
+text-decoration: none;
+color: black;
+}
+.imgtxt2:hover{
+    color: #ff6600;
+}
+.para{
+    padding-top: 30px;
+    font-size: medium;
+    font-size: 17px;
+}
+.instabox{
+    width: 1440px;
+    height: 540px;
+    background-color: black;
+    margin-left: 40px;
+}
+.newsletter{
+    width: 100%;
+    height: 215px;
+    display: flex;
+    justify-content: center;
+    
+}
+#newstxt{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 550;
+}
+.wrngtxt{padding-top: 40px;
+    height: 245px;
+    width: 720px;
+    margin-left: 400px;
+text-align: center;
+color: rgba(128, 128, 128, 0.658);
+font-size: 15px;
+}
+
+.newsbutton{
+    margin-top: 70px;
+    margin-left: 25px;
+    border-color: #ff6600;
+color: #ff6600;
+background-color:white;
+height: 75px;
+width: 167px;
+font-size: larger;
+
+}
+.bottombar{
+    width: 100%;
+    height: 635px;
+    background-color: black;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer-container{
+    width: 100%;
+    margin: auto;
+    padding: 35px;
+}
+.footer-list{
+    display: flex;  
+    justify-content: space-between;
+}
+.footer-list .list-head{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    list-style: none;
+    font-size: 21px;
+
+}
+.divider{
+    width: 100%;
+    height: 3px;
+    border-top: 1px solid white;
+    margin: 50px 0;
+}
+footer ul li{
+    list-style: none;
+    padding: 8px;
+    font-size: 18px;
+}
+footer ul li a:hover{
+    color: #ff6600;
+}
+#legaltxt{
+    font-size: 13.5px;
+}
+#toptxt{
+    font-size: 20px;
+    color: #ff6600;
+    font-weight: bold;
+    float: right;
+}
+.copyrightdiv{
+    width: 100%;
+    height: 55px;;
+
+}
+#social{
+    width: 225px;
+    height: 45px;
+}
+.uparrow{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    float: right;
+}
